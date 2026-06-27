@@ -4,12 +4,12 @@
 COMMON = ADTOrderedMap_test.o
 
 # Υλοποίηση μέσω ADT Set (παρέχεται ήδη στο modules/UsingAVL/)
-UsingADTSet_ADTOrderedMap_test_OBJS = $(COMMON) \
+#UsingADTSet_ADTOrderedMap_test_OBJS = $(COMMON) \
     $(MODULES)/UsingADTSet/ADTOrderedMap.o \
     $(MODULES)/UsingAVL/ADTSet.o
 
 # Υλοποίηση μέσω ADT Map (παρέχεται ήδη στο modules/UsingHashTable/)
-#UsingADTMap_ADTOrderedMap_test_OBJS = $(COMMON) \
+UsingADTMap_ADTOrderedMap_test_OBJS = $(COMMON) \
     $(MODULES)/UsingADTMap/ADTOrderedMap.o \
     $(MODULES)/UsingHashTable/ADTMap.o
 
