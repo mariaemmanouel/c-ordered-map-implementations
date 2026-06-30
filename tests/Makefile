@@ -14,12 +14,12 @@ COMMON = ADTOrderedMap_test.o
     $(MODULES)/UsingHashTable/ADTMap.o
 
 # Υλοποίηση μέσω ADT List (ταξινομημένη) (παρέχεται ήδη στο modules/UsingLinkedList/)
-UsingADTList_ADTOrderedMap_test_OBJS = $(COMMON) \
+#UsingADTList_ADTOrderedMap_test_OBJS = $(COMMON) \
     $(MODULES)/UsingADTList/ADTOrderedMap.o \
     $(MODULES)/UsingLinkedList/ADTList.o
 
 # Υλοποίηση μέσω ADT List (ταξινομημένη) + ADT Map (παρέχεται ήδη στα modules/)
-#UsingADTListAndMap_ADTOrderedMap_test_OBJS = $(COMMON) \
+UsingADTListAndMap_ADTOrderedMap_test_OBJS = $(COMMON) \
     $(MODULES)/UsingADTListAndMap/ADTOrderedMap.o \
     $(MODULES)/UsingHashTable/ADTMap.o \
     $(MODULES)/UsingLinkedList/ADTList.o
